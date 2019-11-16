@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1f5cc"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Form"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:id="@+id/etn"
+        android:inputType="textCapWords"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:id="@+id/etm"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email-Id"
+        android:id="@+id/ete"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:id="@+id/etp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:id="@+id/etcp"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Gender"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="18sp"
+            android:textColor="#000"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="18sp"
+            android:textColor="#000"
+            />
+    </RadioGroup>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accept Terms and Conditions"
+        android:id="@+id/cb"
+        android:textSize="16sp"
+        android:textColor="#1404f1"
+        android:checked="false"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:id="@+id/rbtn"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#f5f2f2"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:id="@+id/lbtn"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#f5f2f2"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/button"/>
+    </LinearLayout>
+</LinearLayout>
+
